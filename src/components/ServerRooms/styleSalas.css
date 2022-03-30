@@ -1,0 +1,142 @@
+/* background-color: 2f3136; */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+  background-color: #2f3135;
+}
+
+.sidebar_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #2f3135;
+  color: #fff;
+  border-bottom: 3px solid #26282c;
+  cursor: pointer;
+}
+
+.sidebar_top:hover{
+  background-color: #36393f;
+}
+
+.sidebar_channel {
+  flex: 1;
+}
+
+.sidebar_addChannel {
+  cursor: pointer;
+}
+
+.sidebar_header{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar_header:hover{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sidebar_addChannel:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sidebar_channelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #2f3135;
+  color: gray;
+}
+
+.sidebar_voice{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #292b2f;
+  padding: 0 20px;
+}
+
+.sidebar_voiceInfo{
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content:start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sidebar_voiceInfo > h3{
+  margin-bottom: -45px;
+}
+
+.sidebar_voiceIcon{
+  color: #4fb185;
+}
+
+.sidebar_voiceInfo{
+  padding-left: 10px;
+}
+
+.sidebar_voiceInfo h3{
+  color: #4fb185;
+}
+
+.sidebar_channelVoice{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar_channelVoice:hover{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sidebar_voiceChannel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #2f3135;
+  color: gray;
+}
+
+.sidebar_profile{
+  background-color: #292b2f;
+  border-top: 1px solid rgb(71, 71, 71);
+  padding: 0 20px;
+  display: flex;
+}
+
+.sidebar_profileInfo h3{
+  padding-left: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.sidebar_profileInfo p{
+  color: gray;
+  margin-left: -30px;
+}
+
+.sidebar_profileInfo > h3{
+  margin-bottom: -15px;
+}
+
+.sidebar_profileIcons{
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content:end;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  color: gray;
+}
+
