@@ -1,0 +1,1 @@
+# projeto-discord-teste-sidebar-channel
